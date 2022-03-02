@@ -1,0 +1,13 @@
+"""wap to find the area of circle"""
+r=float(input("enter the radius of circle"))
+area=3.14*r*r
+print("area of the circle is :",area)
+
+"""wap to find area of triangle"""
+a=int(input("enter the length of side 1: "))
+b=int(input("enter the length of side 2: "))
+c=int(input("enter the length of side 3: "))
+s=(a+b+c)/2
+print("the semiperimeter of the triangle: ",s)
+area=(s*(s-a)*(s-b)*(s-c))**(1/2)
+print("the area of the triangle will be: ", area)
