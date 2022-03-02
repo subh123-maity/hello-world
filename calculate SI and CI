@@ -1,0 +1,13 @@
+"""wap to print the simple interest"""
+p=int(input("Enter the principal initial value"))
+r=int(input("Enter the rate "))
+t=int(input("Enter the time period"))
+s=(p*r*t)/100
+print("The simple interest is: ",s)
+"""wap to print the compound interst"""
+p=int(input("Enter the principal initial value"))
+r=int(input("Enter the rate "))
+t=int(input("Enter the time period"))
+n=int(input("number of times compounded in one t"))
+c=p*((1+(r/n))**(n*t))
+print("the compound interset is: ",c)
