@@ -1,0 +1,15 @@
+"""wap to swap numbers using third variable"""
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+t=a
+a=b
+b=t
+print("value of a after swapping: ",a)
+print("value of b after swapping: ",b)
+
+"""without using a third variable"""
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+a,b=b,a
+print("value of a after swapping: ",a)
+print("value of b after swapping: ",b)
