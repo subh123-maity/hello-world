@@ -1,0 +1,7 @@
+a=int(input("enter the length of first side:"))
+b=int(input("enter the length of second side:"))
+c=int(input("enter the length of third side:"))
+if((a+b)>c):
+  print("The triangle is possible")
+else:
+  print("The triangle is not possible")
