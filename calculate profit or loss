@@ -1,0 +1,8 @@
+sellingprice=int(input("enter the selling price: "))
+costprice=int(input("enter the cost price: "))
+p=costprice-sellingprice
+if(sellingprice>costprice):
+  print("it is profit ",p)
+else:
+  print("it is loss",p)
+  
