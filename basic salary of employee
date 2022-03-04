@@ -1,0 +1,13 @@
+basicsalary=int(input("Enter your basic salary:"))
+if(basicsalary<=10000):
+    hra=0.8*basicsalary
+    da=0.9*basicsalary
+    print(" Totalsalary",(basicsalary+hra+da))
+elif(basicsalary>10000 and basicsalary<=20000):
+    hra=8.5*basicsalary
+    da=0.9*basicsalary
+    print("Totalsalary",(basicsalary+hra+da))
+elif(basicsalary>20000):
+    hra=9.5*basicsalary
+    da=9.5*basicsalary
+    print("Totalsalary",(basicsalary+hra+da))
