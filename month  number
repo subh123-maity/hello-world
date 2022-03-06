@@ -1,0 +1,25 @@
+x=int(input("enter the month number: "))
+if(x==1):
+  print("the month is january and it has 31days")
+elif(x==2):
+  print("the month is february and it has 28 days , if leap year 29 days")
+elif(x==3):
+  print("the month is march and it has 31 days")
+elif(x==4):
+  print("the month is april and  it has 30 days")
+elif(x==5):
+  print("the month is may and it has 31 days")
+elif(x==6):
+  print("the month is june and it has 30 days")
+elif(x==7):
+  print("the month is july and it has 31 days")
+elif(x==8):
+  print("the month is august and it has 31 days")  
+elif(x==9):
+  print("the month is september and it has 30 days")
+elif(x==10):
+  print("the month is october and it has 31 days")
+elif(x==11):
+  print("the month is november and it has 30 days")
+elif(x==12):
+  print("the month is december and it has 31 days")
