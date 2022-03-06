@@ -1,0 +1,6 @@
+a=int(input("enter a number of your choice:"))
+b=int(input("enter a number of your choice:"))
+if(a>b):
+  print("a is the greater number")
+else:
+  print("b is the greater number")
