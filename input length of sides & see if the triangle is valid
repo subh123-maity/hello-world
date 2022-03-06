@@ -1,0 +1,7 @@
+x=int(input("enter the length of 1st side"))
+y=int(input("enter the length of 2nd side"))
+z=int(input("enter the length of 3rd side"))
+if((x+y)>z):
+  print("the triangle is valid")
+else:
+  print("the triangle is not valid")
