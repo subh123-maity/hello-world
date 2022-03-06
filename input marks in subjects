@@ -1,0 +1,5 @@
+p=int(input("enter the marks in physics: "))
+c=int(input("enter the marks in chemistry: "))
+m=int(input("enter the marks in maths: "))
+b=int(input("enter the marks in biology: "))
+
