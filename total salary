@@ -1,0 +1,7 @@
+bs=int(input("enter the basic salary :"))
+if(bs<=10000):
+  print("the total salary is : ",bs+bs*0.2+bs*0.8)
+elif(bs<=20000):
+  print("the total salary is: ",bs+bs*2.5+bs*0.9)
+elif(bs>20000):
+  print("the total salary is: ",bs+bs*0.3+bs*9.5)
