@@ -1,0 +1,5 @@
+x=int(input("enter n natural number of your choice: "))
+i=1
+while x>=i:
+  print(x)
+  x=x-2
