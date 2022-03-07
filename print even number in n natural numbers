@@ -1,0 +1,6 @@
+x=int(input("enter an even natural  number: "))
+i=1
+while x>=i:
+  print(x)
+  x=x-2
+  
