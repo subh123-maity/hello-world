@@ -1,0 +1,12 @@
+import numpy as np
+arr=np.array([1,2,3])
+print(arr+2)
+print(arr**2)
+print(arr*4)
+arr2=np.array([7,8,9])
+print(arr+arr2)
+
+
+arr3=np.array([1,2,3,5]).reshape(2,2)
+arr4=np.array([5,7,8,9]).reshape(2,2)
+print(arr3+arr4)
