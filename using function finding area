@@ -1,0 +1,15 @@
+#area of triangle
+def area_triangle(a,b,c):
+    a=int(input("length of  1st side:-  "))
+    b=int(input("length of 2nd side:- "))
+    c=int(input('enter the 3rd side:- '))
+    s=(a+b+c)/2
+    area=(s*(s-a)*(s-b)*(s-c))**(1/2)
+    print("areaa of triangle:- ",format(area,'.2f'))
+area_triangle(5,5,5)
+#area of circle
+def area_circle(r):
+    r=int(input('enter the radius of circle:- '))
+    area=3.14*r*r
+    print('area of circle:- ',area)
+area_circle(2)
