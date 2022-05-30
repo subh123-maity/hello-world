@@ -1,0 +1,6 @@
+def display_msg():
+    str=input("enter your name:- ")
+    print("hello "+str+" welcome to python programming")
+display_msg()
+
+
