@@ -10,6 +10,17 @@ def max(x,y):
 max(2,3)
 max(13,57)
 
+#using return statement
+def max(x,y):
+    if x>y:
+        return x
+    elif y>x:
+        return y
+    else:
+        return("x and y both are same")
+x=int(input("enter a number:- "))
+y=int(input("enter another number:- "))
+print(max(x,y))
 
 
 
