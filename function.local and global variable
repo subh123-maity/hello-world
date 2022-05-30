@@ -1,0 +1,10 @@
+p=20
+def demo():
+    q=10
+    print('the value of local variable q= ',q)
+    print("the global variable is p= ",p)
+demo()
+#local variable cannot be printed outside the function whereas the global variable can be 
+#print('the value of local variable q= ',q)
+print('the global variable is p= ',p)
+
