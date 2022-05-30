@@ -1,0 +1,13 @@
+#lambda function 1
+z=lambda x,y:x-y
+print(z(4,3))
+#2
+cube=lambda z:z*z*z
+print(cube(4))
+#3
+num=[1,2,3,4,5]
+sq=list(map(lambda x:x*x,num))
+print(sq)
+
+
+
