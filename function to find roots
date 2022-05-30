@@ -1,0 +1,18 @@
+def roots(a,b,c):
+    print("a= ",a)
+    print("b= ",b)
+    print("c= ",c)
+    D=b**2-(4*a*c)
+    if D>0:
+        return("real roots")
+    elif (D==0):
+        return("has only one real root")
+    else:
+        return("has complex roots")
+
+a=int(input("enter the length of a:- "))
+b=int(input("enter the length of b:- "))
+c=int(input("enter the length of c:- "))
+print(roots(a,b,c))
+
+
