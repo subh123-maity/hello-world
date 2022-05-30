@@ -1,0 +1,15 @@
+import math
+def cal_distance(x1,x2,y1,y2):
+    print("x1= ",x1)
+    print("x2= ",x2)
+    print("y1= ",y1)
+    print("y2= ",y2)
+    dx=x2-x1
+    dx=math.pow(dx,2)
+    dy=y2-y1
+    dy=math.pow(dy,2)
+    z=math.pow((dx+dy),0.5)
+    return z
+print("distance= ",(format(cal_distance(4,4,2,2))))
+
+
