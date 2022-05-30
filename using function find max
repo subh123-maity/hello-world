@@ -1,0 +1,20 @@
+def max(x,y):
+    x=int(input("enter a number:- "))
+    y=int(input("enter another number:- "))
+    if x>y:
+        print("x is max")
+    elif y>x:
+        print("y is max")
+    else:
+        print("x and y both are same")
+max(2,3)
+max(13,57)
+
+
+
+
+
+
+
+
+
