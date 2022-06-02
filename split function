@@ -1,0 +1,4 @@
+n=input("enter a seq of words with hypens:- ")
+l=n.split('-')
+l.sort()
+print('-'.join(l))
